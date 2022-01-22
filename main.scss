@@ -1,0 +1,21 @@
+// Shirift
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500;600;700&display=swap");
+
+// Import stylis section
+@import "./styles/header";
+@import "./styles/_header-main";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+}
+
+section {
+  padding: 0 113px;
+}

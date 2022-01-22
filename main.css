@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500;600;700&display=swap");
+header {
+  padding: 0 113px;
+  width: 100%;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .navigation .section-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+header .navbar .navigation .section-text img {
+  cursor: pointer;
+}
+
+header .navbar .navigation .section-text p {
+  font-size: 14px;
+  color: #262d33;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header .navbar .navigation form {
+  position: relative;
+}
+
+header .navbar .navigation form input {
+  border: none;
+  margin-left: 55px;
+  outline: none;
+}
+
+header .navbar .navigation form input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header .navbar .navigation form input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header .navbar .navigation form input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header .navbar .navigation form input::placeholder {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+header .navbar .navigation form img {
+  position: absolute;
+  left: 26px;
+  width: 17px;
+  cursor: pointer;
+}
+
+header .navbar .Subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 37px;
+}
+
+header .navbar .Subscribe .nav-mini-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+header .navbar .Subscribe .nav-mini-img .mini-img {
+  position: absolute;
+  left: -77px;
+  top: -4px;
+}
+
+header .navbar .Subscribe .nav-mini-img h5 {
+  font-size: 12px;
+  color: #262d33;
+}
+
+header .navbar .Subscribe .nav-mini-img p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #939699;
+}
+
+header .navbar .Subscribe .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+header .navbar .Subscribe .sign p {
+  color: #4b5157;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+header .universal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .universal .haykal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+header .universal .haykal p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #4b5157;
+}
+
+header .universal .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+header .universal .date p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #4b5157;
+}
+
+header .universal .date .sun {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+}
+
+.header-main {
+  background: #262d33;
+  height: 82vh;
+  margin-top: -3px;
+}
+
+.header-main .container {
+  padding: 17px 113px 0 113px;
+}
+
+.header-main .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-main .container ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.header-main .container ul a:hover {
+  text-decoration: underline;
+}
+
+.header-main .container .music {
+  padding: 30px 25px 35px 25px;
+  background: #30363d;
+  border-radius: 10px;
+  margin-top: 48px;
+}
+
+.header-main .container .music .music-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.header-main .container .music .music-grid .music-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+.header-main .container .music .music-grid .music-flex hr {
+  margin-left: 25px;
+  height: 75px;
+  width: 0.5px;
+  border-collapse: collapse;
+  background: #4b5157;
+}
+
+.header-main .container .music .music-grid .music-flex h4 {
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+}
+
+section {
+  padding: 0 113px;
+}
+/*# sourceMappingURL=main.css.map */

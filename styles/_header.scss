@@ -1,0 +1,128 @@
+// Header
+
+header {
+  padding: 0 113px;
+  width: 100%;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navigation {
+      display: flex;
+      align-items: center;
+      .section-text {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        img {
+          cursor: pointer;
+        }
+        p {
+          font-size: 14px;
+          color: #262d33;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      form {
+        position: relative;
+        input {
+          border: none;
+          margin-left: 55px;
+          outline: none;
+
+          &::placeholder {
+            font-size: 14px;
+            font-weight: normal;
+          }
+        }
+        img {
+          position: absolute;
+          left: 26px;
+          width: 17px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .Subscribe {
+      display: flex;
+      align-items: center;
+      gap: 37px;
+      // gap: 27px;
+
+      .nav-mini-img {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        position: relative;
+
+        .mini-img {
+          position: absolute;
+          left: -77px;
+          top: -4px;
+        }
+        h5 {
+          font-size: 12px;
+          color: #262d33;
+        }
+        p {
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          color: #939699;
+        }
+      }
+
+      .sign {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        p {
+          color: #4b5157;
+          font-weight: normal;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .universal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .haykal {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      p {
+        font-weight: normal;
+        font-size: 14px;
+        color: #4b5157;
+      }
+    }
+
+    .date {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      p {
+        font-weight: normal;
+        font-size: 14px;
+        color: #4b5157;
+      }
+
+      .sun {
+        display: flex;
+        gap: 11px;
+      }
+    }
+  }
+}

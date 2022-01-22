@@ -1,0 +1,65 @@
+// header-main styling
+
+.header-main {
+  background: #262d33;
+  height: 100vh - 18vh;
+  margin-top: -3px;
+  .container {
+    padding: 17px 113px 0 113px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        // font-weight: lighter;
+        text-transform: uppercase;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .music {
+      padding: 30px 25px 35px 25px;
+      background: #30363d;
+      border-radius: 10px;
+      margin-top: 48px;
+
+      .music-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+
+        .music-flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 15px;
+
+          hr {
+            margin-left: 25px;
+            height: 75px;
+            width: 0.5px;
+            border-collapse: collapse;
+            background: #4b5157;
+          }
+          h4 {
+            font-size: 16px;
+            line-height: 25px;
+            color: #fff;
+            font-weight: bold;
+            font-family: "Roboto Slab", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
