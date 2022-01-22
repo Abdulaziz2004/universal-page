@@ -61,5 +61,179 @@
         }
       }
     }
+
+    .Recommended {
+      .benjamin {
+        .grid {
+          display: flex;
+          // align-items: center;
+          margin-top: 30px;
+          .left {
+            width: 75%;
+            background-image: url("/assets/images/bg-1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px 0 0 10px;
+            padding: 59px 254px 95px 55px;
+
+            .left-container {
+              .benjamin-img {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                h5 {
+                  font-size: 14px;
+                  line-height: 20px;
+                  font-weight: normal;
+                  color: rgba(255, 255, 255, 0.849);
+                }
+                p {
+                  font-weight: normal;
+                  font-size: 12px;
+                  line-height: 15px;
+                  color: #ffffff96;
+                }
+              }
+
+              .title {
+                margin-top: 145px;
+                a {
+                  font-size: 12px;
+                  line-height: 15px;
+                  letter-spacing: 0.5px;
+                  text-transform: uppercase;
+                  color: #4592ff;
+                  text-decoration: none;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+                h2 {
+                  font-weight: bold;
+                  font-size: 40px;
+                  line-height: 50px;
+                  color: #ffffff;
+                  font-family: "Roboto Slab", sans-serif;
+                  margin-top: 25px;
+                }
+
+                .btn {
+                  display: flex;
+                  margin-top: 45px;
+                  gap: 30px;
+                  button {
+                    width: 138px;
+                    height: 40px;
+                    background: #4592ff;
+                    border-radius: 20px;
+                    font-size: 14px;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                  }
+
+                  .play {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .play-div {
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                      border: 1px solid #fff;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      cursor: pointer;
+                    }
+
+                    h4 {
+                      font-weight: normal;
+                      font-size: 14px;
+                      line-height: 20px;
+                      color: #ffffffc4;
+                    }
+                    p {
+                      font-weight: normal;
+                      font-size: 12px;
+                      color: #ffffffa8;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .right {
+            width: 25%;
+            background-color: #fff;
+            border-radius: 0px 10px 10px 0;
+
+            .right-container {
+              .right-title {
+                h2 {
+                  padding: 20px 25px 0 25px;
+                  font-size: 16px;
+                  letter-spacing: 0.5px;
+                  text-transform: uppercase;
+                  color: #262d33;
+                  margin-bottom: 37px;
+                }
+
+                .food {
+                  padding: 17px 45px 19px 25px;
+                  // margin-top: 37px;
+                  transition: 0.5s ease;
+                  position: relative;
+                  border-top: 1px solid #d9dadb;
+                  .clip-path {
+                    width: 20px;
+                    height: 20px;
+                    background: #f5f5f5;
+                    clip-path: polygon(50% 32%, 0% 100%, 100% 100%);
+                    transform: rotate(-90deg);
+                    position: absolute;
+                    top: 40px;
+                    left: -19px;
+                    opacity: 0;
+                    transition: 0.5s ease;
+                  }
+                  h4 {
+                    color: #3bbdc4;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.5px;
+                  }
+                  p {
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-top: 8px;
+                    align-items: center;
+                    position: relative;
+                    img {
+                      position: absolute;
+                      left: 80px;
+                    }
+                  }
+
+                  &:hover {
+                    background: #f5f5f5;
+                    cursor: pointer;
+
+                    .clip-path {
+                      opacity: 1;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
