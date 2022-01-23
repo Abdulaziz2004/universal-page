@@ -4,7 +4,11 @@
 // Import stylis section
 @import "./styles/header";
 @import "./styles/_header-main";
-@import './styles/carts';
+@import "./styles/carts";
+@import "./styles/flower";
+@import "./styles/recomended-flights";
+@import "./styles/owl-corusel";
+@import "./styles/footer";
 
 * {
   margin: 0;
@@ -15,6 +19,7 @@
 body {
   scroll-behavior: smooth;
   font-family: "Lato", sans-serif;
+  // overflow: hidden;
 }
 
 section {

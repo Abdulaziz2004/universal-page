@@ -1,0 +1,27 @@
+.flower {
+  padding: 50px 0 0 0;
+  text-align: center;
+  background-image: url("/assets/images/bg-flower.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    font-family: "Roboto Slab", sans-serif;
+  }
+  button {
+    background: #4592ff;
+    border-radius: 20px;
+    width: 138px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+  }
+}

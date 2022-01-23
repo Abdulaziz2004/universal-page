@@ -468,6 +468,7 @@ header .universal .date .sun {
 
 .carts {
   background: #e5e5e5;
+  padding: 0 113px 60px 113px;
 }
 
 .carts .container-fluid {
@@ -832,6 +833,451 @@ header .universal .date .sun {
   font-size: 14px;
   line-height: 20px;
   font-weight: bolder;
+}
+
+.flower {
+  padding: 50px 0 0 0;
+  text-align: center;
+  background-image: url("/assets/images/bg-flower.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flower h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.flower button {
+  background: #4592ff;
+  border-radius: 20px;
+  width: 138px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.recomended-flights {
+  background: #e5e5e5;
+  padding: 60px 113px 60px 113px;
+}
+
+.recomended-flights .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 30px;
+}
+
+.recomended-flights .container .recomended-left {
+  width: 76%;
+}
+
+.recomended-flights .container .recomended-left .left-container {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0px 25px 0 25px;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  padding: 25px 0 25px 0;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights .saved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights .saved h3 {
+  color: #4592ff;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #262d33;
+  font-family: "Roboto Slab", sans-serif;
+  margin-top: 15px;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights h5 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-top: 10px;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights .date p {
+  color: #939699;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.recomended-flights .container .recomended-left .left-container .Flights .date .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+
+.recomended-flights .container .recomended-right {
+  width: 24%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.recomended-flights .container .recomended-right .right-title {
+  padding: 20px 25px 19px 25px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #262d33;
+}
+
+.recomended-flights .container .recomended-right .right-container {
+  padding: 0px 25px 0px 25px;
+  position: relative;
+}
+
+.recomended-flights .container .recomended-right .right-container .fluid {
+  padding: 17px 0 17px 0;
+}
+
+.recomended-flights .container .recomended-right .right-container .fluid .position-img {
+  position: absolute;
+  right: 28px;
+}
+
+.recomended-flights .container .recomended-right .right-container .fluid .mini-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.recomended-flights .container .recomended-right .right-container .fluid .mini-card p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+}
+
+.recomended-flights .container .recomended-right .right-container .fluid .mini-card span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #939699;
+}
+
+.recomended-flights .container .recomended-right .read-more {
+  text-align: center;
+  margin-top: 11px;
+  margin-bottom: 14px;
+}
+
+.recomended-flights .container .recomended-right .read-more a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #262d33;
+  font-weight: bolder;
+}
+
+.corusel {
+  background: #262d33;
+  padding: 60px 113px;
+}
+
+.corusel .corusel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.corusel .corusel-container .owl-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+}
+
+.corusel .corusel-container .owl-carousel .slider .img-slider {
+  position: relative;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title {
+  position: absolute;
+  top: 36px;
+  left: 18px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .hot {
+  width: 45px;
+  height: 25px;
+  background: #ff4f52;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main {
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 30px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main .main-img img {
+  width: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main h5 {
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.788);
+  margin-top: 8px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main p {
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.514);
+  margin-top: 2px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Roboto Slab", sans-serif;
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 35px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #4592ff;
+  border-radius: 20px;
+  width: 185px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  gap: 11px;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main .button p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main .button p span {
+  color: #c5e4fc;
+}
+
+.corusel .corusel-container .owl-carousel .slider .title .main .button img {
+  width: 19px;
+}
+
+.corusel .corusel-container .owl-carousel .owl-nav {
+  display: none;
+}
+
+.corusel .corusel-container .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 40px;
+  right: 40%;
+}
+
+.corusel .corusel-container .careers .car-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #b4d1e0;
+  border-radius: 10px;
+  padding: 18px 0 0 35px;
+}
+
+.corusel .corusel-container .careers .car-bg img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.corusel .corusel-container .careers .car-bg .car-title h3 {
+  color: #6e99ae;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.corusel .corusel-container .careers .car-bg .car-title h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+  margin-top: 20px;
+}
+
+.corusel .corusel-container .careers .car-bg .car-title p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-top: 15px;
+}
+
+.corusel .corusel-container .careers .car-bg .car-title button {
+  width: 138px;
+  height: 40px;
+  background: #4592ff;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.corusel .corusel-container .careers .car-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.corusel .corusel-container .careers .car-footer .cofee {
+  padding: 22px 25px 25px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.corusel .corusel-container .careers .car-footer .cofee h4 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #262d33;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.corusel .corusel-container .careers .car-footer .cofee h5 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-top: 5px;
+}
+
+.corusel .corusel-container .careers .car-footer .cofee p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #939699;
+  margin-top: 10px;
+}
+
+footer {
+  padding: 60px 113px 0 113px;
+}
+
+footer .title {
+  text-align: center;
+}
+
+footer .title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #262d33;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+footer .title form {
+  margin-top: 25px;
+}
+
+footer .title form input {
+  width: 313px;
+  height: 40px;
+  border: 1px solid #d9dadb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
 }
 
 * {
