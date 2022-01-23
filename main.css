@@ -1252,7 +1252,7 @@ header .universal .date .sun {
 }
 
 footer {
-  padding: 60px 113px 0 113px;
+  padding: 60px 113px 55px 113px;
 }
 
 footer .title {
@@ -1278,6 +1278,140 @@ footer .title form input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
+  outline: none;
+  padding: 0 0 0 15px;
+}
+
+footer .title form button {
+  width: 119px;
+  height: 40px;
+  background: #4592ff;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer .rainbow-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+footer .rainbow-con .rainbow {
+  width: 16.5%;
+  height: 5px;
+  background-color: red;
+}
+
+footer .footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+footer .footer-grid .grid-flex {
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+footer .footer-grid .grid-flex ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+footer .footer-grid .grid-flex ul a {
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #4b5157;
+}
+
+footer .footer-grid .grid-flex ul a:hover {
+  text-decoration: underline;
+}
+
+footer .line {
+  width: 100%;
+  height: 1px;
+  background: #d9dadb;
+}
+
+footer .logotips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer .logotips .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+footer .logotips .contact h3 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #262d33;
+}
+
+footer .logotips .tarmoqlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+footer .universal-ui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+footer .universal-ui p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #939699;
 }
 
 * {

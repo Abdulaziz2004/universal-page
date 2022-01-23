@@ -1,5 +1,5 @@
 footer {
-  padding: 60px 113px 0 113px;
+  padding: 60px 113px 55px 113px;
 
   .title {
     text-align: center;
@@ -20,7 +20,104 @@ footer {
         border: 1px solid #d9dadb;
         box-sizing: border-box;
         border-radius: 5px;
+        outline: none;
+        padding: 0 0 0 15px;
       }
+      button {
+        width: 119px;
+        height: 40px;
+        background: #4592ff;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-left: 10px;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+
+  .rainbow-con {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    .rainbow {
+      width: 16.5%;
+      height: 5px;
+      background-color: red;
+    }
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    .grid-flex {
+      margin-top: 30px;
+      margin-bottom: 64px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        a {
+          text-decoration: none;
+          margin-top: 15px;
+          font-weight: normal;
+          font-size: 14px;
+          color: #4b5157;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+    background: #d9dadb;
+  }
+  .logotips {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .contact {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      h3 {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #262d33;
+      }
+    }
+
+    .tarmoqlar {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+
+  .universal-ui {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    p {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #939699;
     }
   }
 }
